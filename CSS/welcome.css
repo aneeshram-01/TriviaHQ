@@ -1,0 +1,57 @@
+* {box-sizing: border-box;}
+
+body { 
+  background-color: black;;
+  margin: 0;
+  font-family: Noto Sans;
+  background-image: url("video_1.mp4");
+}
+
+.header {
+  text-align: center;
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.collapse {
+  background-color: black;
+}
+
+.header a, .header .logo {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+.header .logo {
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    font-size: 15px;
+    display: inherit;
+    text-align: left;
+  }
+  .header-right {
+    padding-top: 10%;
+      font-size: 15px;
+    float: none;
+  }
+}
+.panel{
+  
+  margin:40px;
+  padding:20px;
+  font: 15px "Noto Sans";
+  }
+
+  
